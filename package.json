@@ -1,0 +1,36 @@
+{
+  "name": "hexo-gpt-tag",
+  "version": "1.0.5",
+  "description": "Automatically tag your Hexo posts with GPT-3.5｜使用GPT-3.5自动为Hexo文章添加标签",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dale0525/hexo-gpt-tag.git"
+  },
+  "keywords": [
+    "hexo",
+    "tags",
+    "hexo-plugin",
+    "gpt-tag",
+    "GPT-3.5",
+    "OpenAI",
+    "auto",
+    "hexo-filter"
+  ],
+  "author": "Logic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dale0525/hexo-gpt-tag/issues"
+  },
+  "homepage": "https://github.com/dale0525/hexo-gpt-tag#readme",
+  "dependencies": {
+    "file-system-cache": "^2.0.2",
+    "hexo-front-matter": "^4.0.0",
+    "hexo-fs": "^4.1.1",
+    "openai": "^3.2.1",
+    "gpt-3-encoder": "^1.1.4"
+  }
+}
