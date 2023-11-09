@@ -1,6 +1,6 @@
 {
   "name": "hexo-gpt-tag",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Automatically tag your Hexo posts with GPT-3.5｜使用GPT-3.5自动为Hexo文章添加标签",
   "main": "index.js",
   "scripts": {
