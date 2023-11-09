@@ -1,7 +1,7 @@
 {
   "name": "hexo-gpt-tag",
-  "version": "1.0.8",
-  "description": "Automatically tag your Hexo posts with GPT-3.5｜使用GPT-3.5自动为Hexo文章添加标签",
+  "version": "1.1.0",
+  "description": "Automatically tag your Hexo posts with GPT-3.5 or GPT-4｜使用GPT-3.5或GPT-4自动为Hexo文章添加标签",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +16,7 @@
     "hexo-plugin",
     "gpt-tag",
     "GPT-3.5",
+    "GPT-4",
     "OpenAI",
     "auto",
     "hexo-filter"

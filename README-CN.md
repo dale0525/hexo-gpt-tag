@@ -2,7 +2,7 @@
 
 ---
 
-使用 GPT-3.5，根据您的文章内容自动生成标签。
+使用 GPT-3.5或GPT-4，根据您的文章内容自动生成标签。
 
 安装
 --
@@ -22,6 +22,7 @@ gpt_tag:
   apiKey: <YOUR OPENAI API KEY>
   override: true # 是否覆盖原有tag
   max_tags: 5 # 生成最多多少个tag
+  model: gpt-4 # gpt-3.5-turbo, gpt-3.5-turbo-16k, gpt-4, gpt-4-32k
 ```
 
 您可以从[这里](https://platform.openai.com/account/api-keys)获取 API 密钥。使用 API 可能需要付费计划。
