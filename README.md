@@ -1,6 +1,6 @@
 # hexo-gpt-tag
 
-Automatically generate article tags with GPT-3.5 or GPT-4
+Automatically generate article tags with GPT
 [中文文档](/README-CN.md)
 
 ## Installation
@@ -15,11 +15,12 @@ npm install hexo-gpt-tag
 
 ```yaml
 gpt_tag:
-  enable: true
-  apiKey: <YOUR OPENAI API KEY>
-  override: true # whether to override existing tags
-  max_tags: 5 # Generate at most how many tags
-  model: gpt-4 # gpt-3.5-turbo, gpt-3.5-turbo-16k, gpt-4, gpt-4-32k
+    enable: true
+    apiKey: <YOUR OPENAI API KEY>
+    override: true # whether to override existing tags
+    max_tags: 5 # Generate at most how many tags
+    max_tokens: 2048 # The maximum number of blog tokens used to send to gpt
+    model: gpt-4o-mini # The gpt model to use
 ```
 
 You can get your API key from [here](https://platform.openai.com/account/api-keys). It may require a paid plan to use the API.
@@ -30,5 +31,4 @@ You can get your API key from [here](https://platform.openai.com/account/api-key
 hexo clean && hexo generate
 ```
 
-***Make sure to run BOTH `hexo clean` and `hexo generate`.***
-
+**_Make sure to run BOTH `hexo clean` and `hexo generate`._**
