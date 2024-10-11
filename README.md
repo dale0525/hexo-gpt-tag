@@ -32,3 +32,5 @@ hexo clean && hexo generate
 ```
 
 **_Make sure to run BOTH `hexo clean` and `hexo generate`._**
+
+3. Tags will not be regenerated if blog post is not changed. Remove `./.cache` folder and generate your site if you want to regenerate tags even if blog post is not changed.

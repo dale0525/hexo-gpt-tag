@@ -31,3 +31,5 @@ gpt_tag:
 `hexo clean && hexo generate`
 
 **确保运行`hexo clean` 和 `hexo generate`。**
+
+3. 如果文章正文没有更改，不会重新生成 tag。如果要重新生成 tag，请删除`./.chache`文件夹并重新生成站点。
