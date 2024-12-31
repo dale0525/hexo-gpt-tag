@@ -20,7 +20,8 @@ gpt_tag:
     override: true # whether to override existing tags
     max_tags: 5 # Generate at most how many tags
     max_tokens: 2048 # The maximum number of blog tokens used to send to gpt
-    model: gpt-4o-mini # The gpt model to use
+    model: gpt-4o-mini, # The gpt model to use
+    base_url: "https://api.openai.com/v1" # OpenAI API base URL
 ```
 
 You can get your API key from [here](https://platform.openai.com/account/api-keys). It may require a paid plan to use the API.

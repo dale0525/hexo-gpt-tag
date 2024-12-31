@@ -21,7 +21,8 @@ gpt_tag:
     override: true # 是否覆盖原有tag
     max_tags: 5 # 生成最多多少个tag
     max_tokens: 2048 # 发送给gpt的最大正文token数量
-    model: gpt-4o-mini # 使用的gpt模型
+    model: gpt-4o-mini, # 使用的gpt模型
+    base_url: "https://api.openai.com/v1" # OpenAI API 地址
 ```
 
 您可以从[这里](https://platform.openai.com/account/api-keys)获取 API 密钥。使用 API 可能需要付费计划。
