@@ -17,12 +17,13 @@ npm install hexo-gpt-tag
 ```yaml
 gpt_tag:
     enable: true
-    apiKey: <YOUR OPENAI API KEY>
+    apiKey: <YOUR_OPENAI_API_KEY>
     override: true # 是否覆盖原有tag
     max_tags: 5 # 生成最多多少个tag
-    max_tokens: 2048 # 发送给gpt的最大正文token数量
+    max_tokens: 2048 # (可选) 发送给gpt的最大正文token数量
     model: gpt-4o-mini, # 使用的gpt模型
-    base_url: "https://api.openai.com/v1" # OpenAI API 地址
+    base_url: "https://api.openai.com/v1" # (可选) OpenAI API 地址
+    prompt: "<YOUR_OWN_PROMPT>" # (可选) 生成tag的提示词
 ```
 
 您可以从[这里](https://platform.openai.com/account/api-keys)获取 API 密钥。使用 API 可能需要付费计划。
